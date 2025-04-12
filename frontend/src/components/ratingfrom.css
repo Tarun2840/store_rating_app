@@ -1,0 +1,38 @@
+.rating-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .star-rating {
+    display: flex;
+    gap: 0.2rem;
+  }
+  
+  .star-rating label {
+    cursor: pointer;
+  }
+  
+  .star {
+    font-size: 1.5rem;
+    color: #ccc;
+  }
+  
+  .star.filled {
+    color: #ffc107;
+  }
+  
+  .submit-rating-btn {
+    padding: 0.3rem 0.6rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-rating-btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
